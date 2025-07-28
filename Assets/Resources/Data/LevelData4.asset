@@ -15,145 +15,173 @@ MonoBehaviour:
   Width: 4
   Height: 3
   LevelTime: 12
-  BusColors: 01000000040000000200000003000000
+  BusColors: 03000000040000000200000001000000
   grids:
   - X: 0
     Z: 0
     Position: {x: 0, y: 0, z: 0}
     IsFull: 0
-    ColorIndex: 1
+    ColorIndex: 3
+    StickMan: {fileID: 0}
   - X: 0
     Z: 1
     Position: {x: 0, y: 0, z: 1}
     IsFull: 0
-    ColorIndex: 1
+    ColorIndex: 4
+    StickMan: {fileID: 0}
   - X: 0
     Z: 2
     Position: {x: 0, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 1
+    StickMan: {fileID: 0}
   - X: 0
     Z: 3
     Position: {x: 0, y: 0, z: 3}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 1
     Z: 0
     Position: {x: 1, y: 0, z: 0}
     IsFull: 0
-    ColorIndex: 4
+    ColorIndex: 3
+    StickMan: {fileID: 0}
   - X: 1
     Z: 1
     Position: {x: 1, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 4
+    StickMan: {fileID: 0}
   - X: 1
     Z: 2
     Position: {x: 1, y: 0, z: 2}
     IsFull: 0
-    ColorIndex: 4
+    ColorIndex: 1
+    StickMan: {fileID: 0}
   - X: 1
     Z: 3
     Position: {x: 1, y: 0, z: 3}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 2
     Z: 0
     Position: {x: 2, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 3
+    StickMan: {fileID: 0}
   - X: 2
     Z: 1
     Position: {x: 2, y: 0, z: 1}
     IsFull: 0
-    ColorIndex: 3
+    ColorIndex: 4
+    StickMan: {fileID: 0}
   - X: 2
     Z: 2
     Position: {x: 2, y: 0, z: 2}
     IsFull: 0
-    ColorIndex: 3
+    ColorIndex: 1
+    StickMan: {fileID: 0}
   - X: 2
     Z: 3
     Position: {x: 2, y: 0, z: 3}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 3
     Z: 0
     Position: {x: 3, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 2
+    StickMan: {fileID: 0}
   - X: 3
     Z: 1
     Position: {x: 3, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 2
+    StickMan: {fileID: 0}
   - X: 3
     Z: 2
     Position: {x: 3, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 2
+    StickMan: {fileID: 0}
   - X: 3
     Z: 3
     Position: {x: 3, y: 0, z: 3}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 0
     Z: 0
     Position: {x: 0, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 0
     Z: 1
     Position: {x: 0, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 0
     Z: 2
     Position: {x: 0, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 1
     Z: 0
     Position: {x: 1, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 1
     Z: 1
     Position: {x: 1, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 1
     Z: 2
     Position: {x: 1, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 2
     Z: 0
     Position: {x: 2, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 2
     Z: 1
     Position: {x: 2, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 2
     Z: 2
     Position: {x: 2, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 3
     Z: 0
     Position: {x: 3, y: 0, z: 0}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 3
     Z: 1
     Position: {x: 3, y: 0, z: 1}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
   - X: 3
     Z: 2
     Position: {x: 3, y: 0, z: 2}
     IsFull: 0
     ColorIndex: 0
+    StickMan: {fileID: 0}
