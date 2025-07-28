@@ -150,7 +150,6 @@ public class LevelEditor : EditorWindow
         DrawColorButton("Green", ColorIndex.Green, Color.green);
         DrawColorButton("Red", ColorIndex.Red, Color.red);
         DrawColorButton("Yellow", ColorIndex.Yellow, Color.yellow); 
-        DrawColorButton("None", ColorIndex.None, Color.grey);
         EditorGUILayout.EndHorizontal();
 
         scrollPos = EditorGUILayout.BeginScrollView(scrollPos);
