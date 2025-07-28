@@ -1,0 +1,3 @@
+-Simulator tab açıkken yeni input sistemi çalısmıyor. Unityden kaynaklı bir bug tab kapatılınca çözülüyor. -Gitignore eklemeyi projenin başında unuttuğumdan dolayı auto generated bazı dosyaları yolladım.
+-Casede istenen oyunu kapatıp açınca tekrar baştan başlasın kısmı bitirelemedi, ana class'ın başka classlarla olan bağlılıkları kaldırıldı. 
+-Kendi class'ı şimdilik tutuldu.
