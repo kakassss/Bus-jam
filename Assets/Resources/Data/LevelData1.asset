@@ -15,7 +15,7 @@ MonoBehaviour:
   Width: 5
   Height: 3
   LevelTime: 35
-  BusColors: 04000000030000000200000001000000
+  BusColors: 0400000003000000020000000100000002000000
   grids:
   - X: 0
     Z: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
     Z: 0
     Position: {x: 3, y: 0, z: 0}
     IsFull: 0
-    ColorIndex: 2
+    ColorIndex: 1
     StickMan: {fileID: 0}
   - X: 3
     Z: 1
@@ -255,13 +255,13 @@ MonoBehaviour:
     Z: 0
     Position: {x: 4, y: 0, z: 0}
     IsFull: 0
-    ColorIndex: 2
+    ColorIndex: 1
     StickMan: {fileID: 0}
   - X: 4
     Z: 1
     Position: {x: 4, y: 0, z: 1}
     IsFull: 0
-    ColorIndex: 2
+    ColorIndex: 1
     StickMan: {fileID: 0}
   - X: 4
     Z: 2

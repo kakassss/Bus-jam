@@ -20,7 +20,7 @@ public class LevelDataManager
         
         _allLevels = allLevels;
         _currentLevel = _playerDataManager.GetCurrentLevel();
-        _levelData = _allLevels[2];
+        _levelData = _allLevels[_currentLevel];
         
         Vector3 center = new Vector3(0, 0, 0);
         Vector3 gridOffset = center - new Vector3(_levelData.Width, 0, _levelData.Height - 3.5f) * (_cellSize * 0.5f);

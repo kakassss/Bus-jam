@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 4
   Height: 3
-  LevelTime: 12
+  LevelTime: 35
   BusColors: 03000000040000000200000001000000
   grids:
   - X: 0
