@@ -1,5 +1,4 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
 public class GridObjectManager
@@ -23,13 +22,11 @@ public class GridObjectManager
         {
             for (int j = 0; j < _gridManager.Grid.GetLength(1); j++)
             {
-                var grid = _instantiator.InstantiatePrefab(_gridObject, 
+                if (j == _gridManager.Grid.GetLength(1)-1) continue;
+                
+                _instantiator.InstantiatePrefab(_gridObject, 
                     _gridManager.GetWorldPosition(i, j)+ new Vector3(1.5f,0,1.5f) * 0.5f, 
                     Quaternion.identity,_parentTransform);
-                
-                grid.GetComponent<TextMeshProUGUI>().text = i + " " + j;
-                grid.transform.position += new Vector3(0, 3, 0);
-                grid.transform.rotation = Quaternion.Euler(60,0,0);
             }
         }
     }

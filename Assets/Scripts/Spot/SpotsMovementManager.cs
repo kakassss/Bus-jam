@@ -12,18 +12,16 @@ public struct PassengerData
 public class SpotsMovementManager
 {
     private BusEvents _busEvents;
-    private StickManEvents _stickManEvents;
+    private StickManProvider _stickManProvider;
     private SpotsManager _spotsManager;
-    private PlayerDataManager _playerDataManager;
     
     private PassengerData _passengerData;
     private BusSeat _busSeat;
     
-    public SpotsMovementManager(BusEvents busEvents, SpotsManager spotsManager, PlayerDataManager playerDataManager)
+    public SpotsMovementManager(BusEvents busEvents, SpotsManager spotsManager)
     {
         _busEvents = busEvents;
         _spotsManager = spotsManager;
-        _playerDataManager = playerDataManager;
     }
      
     public Vector3 SetTarget(StickMan stickMan,Transform transform,BusSeat seat)

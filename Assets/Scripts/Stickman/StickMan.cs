@@ -17,7 +17,7 @@ public class StickMan : MonoBehaviour, IStickMan
     private QuaternionUtils _quaternionUtils;
     private PathFinding _pathFinding;
     private StickManAnimator _stickManAnimator;
-    private StickManEvents _stickManEvents;
+    private StickManProvider _stickManProvider;
     private SpotsMovementManager _spotsMovementManager;
     private GridManager _gridManager;
     

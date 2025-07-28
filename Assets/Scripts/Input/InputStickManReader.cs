@@ -3,12 +3,12 @@ using UnityEngine.InputSystem;
 public class InputStickManReader : InputSystem_Actions.IInputClickActions
 {
     private InputSystem_Actions _inputSystemActions = new();
-    private StickManEvents _stickManEvents;
+    private StickManProvider _stickManProvider;
     private Input _input;
     
-    public InputStickManReader(StickManEvents stickManEvents, Input input)
+    public InputStickManReader(StickManProvider stickManProvider, Input input)
     {
-        _stickManEvents = stickManEvents;
+        _stickManProvider = stickManProvider;
         _input = input;
         
         _inputSystemActions.InputClick.SetCallbacks(this);
@@ -29,10 +29,10 @@ public class InputStickManReader : InputSystem_Actions.IInputClickActions
     {
         if(!context.performed) return;
         
-        _stickManEvents.StickMan = _input.GetMoveableStickMan();
+        _stickManProvider.StickMan = _input.GetMoveableStickMan();
         
-        if(_stickManEvents.StickMan == null) return;
-        _stickManEvents.StickMan.FindPath();
-        _stickManEvents.StickMan.FirstAction();
+        if(_stickManProvider.StickMan == null) return;
+        _stickManProvider.StickMan.FindPath();
+        _stickManProvider.StickMan.FirstAction();
     }
 }

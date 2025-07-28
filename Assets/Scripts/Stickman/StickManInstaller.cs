@@ -11,6 +11,6 @@ public class StickManInstaller : MonoInstaller
     {
         Container.Bind<StickManAnimator>().AsTransient().NonLazy();
         Container.Bind<StickManObjectManager>().AsSingle().WithArguments(_stickMen,_stickManParent).NonLazy();
-        Container.Bind<StickManEvents>().AsSingle().NonLazy();
+        Container.Bind<StickManProvider>().AsSingle().NonLazy();
     }
 }
