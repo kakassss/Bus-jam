@@ -3,5 +3,5 @@
 -Kendi class'ı şimdilik tutuldu.
 
 
-https://github.com/user-attachments/assets/c454ae95-fe25-440c-9af1-9bd9ac5a0eef
+https://github.com/user-attachments/assets/f22212a2-f994-4f7c-bfa3-754d7fde05a4
 
